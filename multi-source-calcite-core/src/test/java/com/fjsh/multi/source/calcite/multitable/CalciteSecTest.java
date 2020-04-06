@@ -1,7 +1,7 @@
-package com.fjsh.multi.source.calcite.test;
+package com.fjsh.multi.source.calcite.multitable;
 
 import com.alibaba.fastjson.JSONObject;
-import com.fjsh.multi.source.calcite.test.schema.JsonSchema;
+import com.fjsh.multi.source.calcite.multitable.schema.JsonSchema;
 import org.apache.calcite.jdbc.CalciteConnection;
 import org.apache.calcite.schema.SchemaPlus;
 import org.junit.Assert;
@@ -11,7 +11,12 @@ import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import java.sql.*;
-
+/**
+* @ClassName: CalciteSecTest
+* @description: 多表查询验证
+* @author: fujiansheng.fjs
+* @create: 2020/4/6 10:01 下午
+*/
 @RunWith(MockitoJUnitRunner.class)
 public class CalciteSecTest {
 

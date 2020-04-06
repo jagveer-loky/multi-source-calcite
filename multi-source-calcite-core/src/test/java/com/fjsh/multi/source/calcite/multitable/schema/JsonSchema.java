@@ -1,4 +1,4 @@
-package com.fjsh.multi.source.calcite.test.schema;
+package com.fjsh.multi.source.calcite.multitable.schema;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
