@@ -1,1 +1,2 @@
 # multi-source-calcite
+基于calcite对多源数据动态查询并返回聚合后的结果
