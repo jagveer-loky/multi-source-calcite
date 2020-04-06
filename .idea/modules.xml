@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/multi-source-calcite.iml" filepath="$PROJECT_DIR$/multi-source-calcite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-source-calcite-core/multi-source-calcite-core.iml" filepath="$PROJECT_DIR$/multi-source-calcite-core/multi-source-calcite-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-source-calcite-service/multi-source-calcite-service.iml" filepath="$PROJECT_DIR$/multi-source-calcite-service/multi-source-calcite-service.iml" />
+    </modules>
+  </component>
+</project>
