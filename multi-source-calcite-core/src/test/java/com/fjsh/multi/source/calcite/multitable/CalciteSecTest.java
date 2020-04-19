@@ -14,7 +14,6 @@ import java.sql.*;
 /**
 * @ClassName: CalciteSecTest
 * @description: 多表查询验证
-* @author: fujiansheng.fjs
 * @create: 2020/4/6 10:01 下午
 */
 @RunWith(MockitoJUnitRunner.class)
