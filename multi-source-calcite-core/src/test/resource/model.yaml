@@ -1,0 +1,17 @@
+version: 1.0
+defaultSchema: tutorial
+schemas:
+- name: tutorial
+  tables:
+  - type: custom
+    name: user_info
+    factory: com.fjsh.multi.source.calcite.sqlparser.validator.TutorialTableFactory
+    operand:
+      ddl: multi-source-calcite-core/src/test/resource/user/user.yaml
+      data: multi-source-calcite-core/src/test/resource/user/user.txt
+  - type: custom
+    name: role
+    factory: com.fjsh.multi.source.calcite.sqlparser.validator.TutorialTableFactory
+    operand:
+      ddl: multi-source-calcite-core/src/test/resource/role/role.yaml
+      data: multi-source-calcite-core/src/test/resource/role/role.txt

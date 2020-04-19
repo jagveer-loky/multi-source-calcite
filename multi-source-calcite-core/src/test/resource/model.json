@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "defaultSchema": "tutorial",
+  "schemas": [ {
+    "name": "tutorial",
+    "type": "custom",
+    "factory": "com.fjsh.multi.source.calcite.sqlparser.validator.TutorialSchemaFactory",
+    "operand": {
+      "tables": [
+        {
+        "ddl": "multi-source-calcite-core/src/test/resource/user/user.json",
+        "data": "multi-source-calcite-core/src/test/resource/user/user.txt"
+      },{
+        "ddl": "multi-source-calcite-core/src/test/resource/role/role.json",
+        "data": "multi-source-calcite-core/src/test/resource/role/role.txt"
+      }
+      ]
+    }
+  } ]
+}
